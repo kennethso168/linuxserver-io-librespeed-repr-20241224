@@ -1,4 +1,4 @@
-# minimal-reproduction-template
+# #33270 Regex revision for linuxserver.io containers - no update detected when the capture groups major,minor,patch,revision are used instead of the capture groups major,minor,patch,build
 
 <!--First, read the [Renovate minimal reproduction instructions](https://github.com/renovatebot/renovate/blob/main/docs/development/minimal-reproductions.md).
 
@@ -32,4 +32,4 @@ If this is not the intended behavior, the docs should be updated.
 
 ## Link to the Renovate issue or Discussion
 
-Put your link to the Renovate issue or Discussion here.
+[Put your link to the Renovate issue or Discussion here.](https://github.com/renovatebot/renovate/discussions/33270)
