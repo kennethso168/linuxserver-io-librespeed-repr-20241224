@@ -18,11 +18,11 @@ At commit [cb0a777](https://github.com/kennethso168/linuxserver-io-librespeed-re
 
 `"versioning": "regex:^(?<major>\\d+)\\.(?<minor>\\d+)\\.(?<patch>\\d+)-ls(?<revision>.+)$"`
 
-No PRs were opened by renovate for updates.
+No PRs were opened by renovate for updates. [Job run log](https://github.com/kennethso168/linuxserver-io-librespeed-repr-20241224/blob/main/job_log/log1)
 
-Afterwards, at commit [8dcdb68](https://github.com/kennethso168/linuxserver-io-librespeed-repr-20241224/commit/8dcdb6820b323f12a72a8560296b9c434f183c22), which changes the `revision` capture group to `build`, [PR #3](https://github.com/kennethso168/linuxserver-io-librespeed-repr-20241224/pull/3) for updating to version `5.4.1-ls218` was successfully opened by renovate.
+Afterwards, at commit [8dcdb68](https://github.com/kennethso168/linuxserver-io-librespeed-repr-20241224/commit/8dcdb6820b323f12a72a8560296b9c434f183c22), which changes the `revision` capture group to `build`, [PR #3](https://github.com/kennethso168/linuxserver-io-librespeed-repr-20241224/pull/3) for updating to version `5.4.1-ls218` was successfully opened by renovate. [Job run log](https://github.com/kennethso168/linuxserver-io-librespeed-repr-20241224/blob/main/job_log/log2)
 
-Thereafter, at commit [9ef6d26](https://github.com/kennethso168/linuxserver-io-librespeed-repr-20241224/commit/9ef6d268237dbb107889f95024904e7b700ff04e), which reverted the previous commit, renovate auto closed the PR.
+Thereafter, at commit [9ef6d26](https://github.com/kennethso168/linuxserver-io-librespeed-repr-20241224/commit/9ef6d268237dbb107889f95024904e7b700ff04e), which reverted the previous commit, renovate auto closed the PR. [Job run log](https://github.com/kennethso168/linuxserver-io-librespeed-repr-20241224/blob/main/job_log/log3)
 
 ## Expected behavior
 
