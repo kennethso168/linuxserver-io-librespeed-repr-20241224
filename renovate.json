@@ -11,7 +11,7 @@
       "matchPackageNames": [
         "ghcr.io/linuxserver/librespeed"
       ],
-      "versioning": "regex:^(?<major>\\d+)\\.(?<minor>\\d+)\\.(?<patch>\\d+)-ls(?<revision>.+)$"
+      "versioning": "regex:^(?<major>\\d+)\\.(?<minor>\\d+)\\.(?<patch>\\d+)-ls(?<build>.+)$"
     }
   ]
 }
