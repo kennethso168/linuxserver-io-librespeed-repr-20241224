@@ -1,0 +1,19 @@
+version: "3.3"
+services:
+  librespeed:
+    image: lscr.io/linuxserver/librespeed:5.4.1-ls215
+    container_name: librespeed
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Asia/Hong_Kong
+      - PASSWORD=${LIBRESPEED_PASSWORD}
+    volumes:
+      - /opt/appdata/librespeed:/config
+    ports:
+      - 8080:80
+    labels:
+      - 'wud.tag.include=^\d+\.\d+\.\d+-ls\d+$$'
+      - 'wud.link.template=https://github.com/linuxserver/docker-librespeed/releases/tag/$${raw}'
+    restart: unless-stopped
+networks: {}
