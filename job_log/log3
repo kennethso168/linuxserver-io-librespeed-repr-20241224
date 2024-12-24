@@ -1,0 +1,1283 @@
+DEBUG: discovered distro
+{
+  "distro": {
+    "name": "Ubuntu",
+    "versionCode": "noble",
+    "versionId": "24.04"
+  }
+}
+
+DEBUG: prepare commands
+INFO: Initializing tools all...
+DEBUG: creating dir
+{
+  "path": "/tmp/containerbase"
+}
+
+DEBUG: setting path mode
+{
+  "path": "/tmp/containerbase"
+  "mode": 509
+  "s": 493
+}
+
+DEBUG: creating dir
+{
+  "path": "/tmp/containerbase/tool.init.d"
+}
+
+DEBUG: setting path mode
+{
+  "path": "/tmp/containerbase/tool.init.d"
+  "mode": 509
+  "s": 493
+}
+
+DEBUG: creating dir
+{
+  "path": "/tmp/containerbase/cache"
+}
+
+DEBUG: setting path mode
+{
+  "path": "/tmp/containerbase/cache"
+  "mode": 509
+  "s": 493
+}
+
+DEBUG: creating dir
+{
+  "path": "/tmp/containerbase/cache/.cache"
+}
+
+DEBUG: setting path mode
+{
+  "path": "/tmp/containerbase/cache/.cache"
+  "mode": 509
+  "s": 493
+}
+
+DEBUG: creating dir
+{
+  "path": "/tmp/containerbase/cache/.config"
+}
+
+DEBUG: setting path mode
+{
+  "path": "/tmp/containerbase/cache/.config"
+  "mode": 509
+  "s": 493
+}
+
+DEBUG: creating dir
+{
+  "path": "/tmp/containerbase/cache/.local"
+}
+
+DEBUG: setting path mode
+{
+  "path": "/tmp/containerbase/cache/.local"
+  "mode": 509
+  "s": 493
+}
+
+DEBUG: initialize tool
+{
+  "tool": "conan"
+}
+
+DEBUG: creating dir
+{
+  "path": "/tmp/containerbase/cache/.conan2"
+}
+
+DEBUG: setting path mode
+{
+  "path": "/tmp/containerbase/cache/.conan2"
+  "mode": 509
+  "s": 493
+}
+
+DEBUG: creating dir
+{
+  "path": "/tmp/containerbase/cache/.conan2/profiles"
+}
+
+DEBUG: setting path mode
+{
+  "path": "/tmp/containerbase/cache/.conan2/profiles"
+  "mode": 509
+  "s": 493
+}
+
+DEBUG: setting path mode
+{
+  "path": "/tmp/containerbase/cache/.conan2/profiles/default"
+  "mode": 436
+  "s": 420
+}
+
+DEBUG: initialize tool
+{
+  "tool": "dart"
+}
+
+DEBUG: creating dir
+{
+  "path": "/tmp/containerbase/cache/.dart"
+}
+
+DEBUG: setting path mode
+{
+  "path": "/tmp/containerbase/cache/.dart"
+  "mode": 509
+  "s": 493
+}
+
+DEBUG: creating dir
+{
+  "path": "/tmp/containerbase/cache/.dart-tool"
+}
+
+DEBUG: setting path mode
+{
+  "path": "/tmp/containerbase/cache/.dart-tool"
+  "mode": 509
+  "s": 493
+}
+
+DEBUG: setting path mode
+{
+  "path": "/tmp/containerbase/cache/.dart/dartdev.json"
+  "mode": 436
+  "s": 420
+}
+
+DEBUG: setting path mode
+{
+  "path": "/tmp/containerbase/cache/.dart-tool/dart-flutter-telemetry.config"
+  "mode": 436
+  "s": 420
+}
+
+DEBUG: creating dir
+{
+  "path": "/tmp/containerbase/cache/.pub-cache"
+}
+
+DEBUG: setting path mode
+{
+  "path": "/tmp/containerbase/cache/.pub-cache"
+  "mode": 509
+  "s": 493
+}
+
+DEBUG: initialize tool
+{
+  "tool": "docker"
+}
+
+DEBUG: initialize tool
+{
+  "tool": "dotnet"
+}
+
+DEBUG: creating dir
+{
+  "path": "/tmp/containerbase/cache/.nuget"
+}
+
+DEBUG: setting path mode
+{
+  "path": "/tmp/containerbase/cache/.nuget"
+  "mode": 509
+  "s": 493
+}
+
+DEBUG: creating dir
+{
+  "path": "/tmp/containerbase/cache/.nuget/NuGet"
+}
+
+DEBUG: setting path mode
+{
+  "path": "/tmp/containerbase/cache/.nuget/NuGet"
+  "mode": 509
+  "s": 493
+}
+
+DEBUG: Initializing legacy tool elixir ...
+DEBUG: Initializing legacy tool erlang ...
+DEBUG: initialize tool
+{
+  "tool": "flutter"
+}
+
+DEBUG: setting path mode
+{
+  "path": "/tmp/containerbase/cache/.flutter"
+  "mode": 436
+  "s": 420
+}
+
+DEBUG: setting path mode
+{
+  "path": "/tmp/containerbase/cache/.flutter_tool_state"
+  "mode": 436
+  "s": 420
+}
+
+DEBUG: Initializing legacy tool git-lfs ...
+DEBUG: Initializing legacy tool golang ...
+DEBUG: initialize tool
+{
+  "tool": "java"
+}
+
+DEBUG: creating dir
+{
+  "path": "/tmp/containerbase/cache/.m2"
+}
+
+DEBUG: setting path mode
+{
+  "path": "/tmp/containerbase/cache/.m2"
+  "mode": 509
+  "s": 493
+}
+
+DEBUG: Creating Maven settings
+DEBUG: setting path mode
+{
+  "path": "/tmp/containerbase/cache/.m2/settings.xml"
+  "mode": 436
+  "s": 420
+}
+
+DEBUG: creating dir
+{
+  "path": "/tmp/containerbase/cache/.gradle"
+}
+
+DEBUG: setting path mode
+{
+  "path": "/tmp/containerbase/cache/.gradle"
+  "mode": 509
+  "s": 493
+}
+
+DEBUG: Creating Gradle settings
+DEBUG: setting path mode
+{
+  "path": "/tmp/containerbase/cache/.gradle/gradle.properties"
+  "mode": 436
+  "s": 420
+}
+
+DEBUG: initialize tool
+{
+  "tool": "java-jdk"
+}
+
+DEBUG: Maven settings already found
+DEBUG: Gradle settings already found
+DEBUG: initialize tool
+{
+  "tool": "java-jre"
+}
+
+DEBUG: Maven settings already found
+DEBUG: Gradle settings already found
+DEBUG: Initializing legacy tool jb ...
+DEBUG: Initializing legacy tool nix ...
+DEBUG: initialize tool
+{
+  "tool": "node"
+}
+
+DEBUG: creating dir
+{
+  "path": "/tmp/containerbase/cache/.npm"
+}
+
+DEBUG: setting path mode
+{
+  "path": "/tmp/containerbase/cache/.npm"
+  "mode": 509
+  "s": 493
+}
+
+DEBUG: setting path mode
+{
+  "path": "/tmp/containerbase/cache/.npmrc"
+  "mode": 436
+  "s": 420
+}
+
+DEBUG: initialize tool
+{
+  "tool": "php"
+}
+
+DEBUG: Initializing legacy tool powershell ...
+DEBUG: Initializing legacy tool python ...
+DEBUG: Initializing legacy tool ruby ...
+DEBUG: Initializing legacy tool rust ...
+DEBUG: Initializing legacy tool sbt ...
+DEBUG: Initializing legacy tool scala ...
+DEBUG: Initializing legacy tool swift ...
+DEBUG: Initializing legacy tool terraform ...
+DEBUG: Initializing legacy tool vendir ...
+INFO: Initialize tools all succeded in 518ms.
+DEBUG: Using RE2 regex engine
+DEBUG: Parsing configs
+DEBUG: Checking for config file in /runner/renovate/job_config.json
+DEBUG: Detected config in env RENOVATE_CONFIG
+{
+  "config": {
+    "extends": [
+      "mergeConfidence:all-badges"
+    ],
+    "prFooter": "This PR was generated by [Mend Renovate](https://mend.io/renovate/). View the [repository job log](https://developer.mend.io/{{platform}}/{{repository}}).",
+    "redisUrl": "redis://mend-developer-platform-renovate-prod.aqffol.ng.0001.use1.cache.amazonaws.com:6379",
+    "binarySource": "install",
+    "platformCommit": "enabled",
+    "repositoryCache": "enabled",
+    "cacheTtlOverride": {
+      "datasource-docker-hub-tags": 90
+    },
+    "encryptedWarning": "Encrypted secrets were detected in the repository config. This feature has been deprecated. Please migrate them to this portal. See the guide at http://docs.renovatebot.com/mend-hosted/migrating-secrets/",
+    "onboardingConfig": {
+      "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+      "extends": [
+        "config:recommended"
+      ]
+    },
+    "gitIgnoredAuthors": [
+      "29139614+renovate[bot]@users.noreply.github.com"
+    ],
+    "customizeDashboard": {
+      "repoProblemsHeader": "These problems occurred while renovating this repository. [View logs](https://developer.mend.io//{{platform}}/{{repository}})."
+    },
+    "repositoryCacheType": "s3://mend-developer-platform-prod/renovate/",
+    "dependencyDashboardFooter": "\n- [ ] <!-- manual job -->Check this box to trigger a request for Renovate to run again on this repository\n",
+    "allowedPostUpgradeCommands": [
+      "^git add --all$",
+      "^git reset$",
+      "^pwd$"
+    ],
+    "allowPostUpgradeCommandTemplating": true
+  }
+}
+
+DEBUG: File config
+{
+  "config": {
+    "token": "***********",
+    "privateKey": "***********",
+    "privateKeyOld": "***********",
+    "hostRules": [
+      {
+        "hostType": "docker",
+        "matchHost": "docker.io",
+        "username": "mdpprod2renovate",
+        "password": "***********"
+      },
+      {
+        "hostType": "docker",
+        "matchHost": "hub.docker.com",
+        "username": "mdpprodrenovatedc2",
+        "password": "***********"
+      },
+      {
+        "hostType": "github",
+        "matchHost": "api.github.com",
+        "token": "***********"
+      },
+      {
+        "hostType": "github-tags",
+        "matchHost": "api.github.com",
+        "token": "***********"
+      },
+      {
+        "hostType": "github-releases",
+        "matchHost": "api.github.com",
+        "token": "***********"
+      },
+      {
+        "hostType": "pod",
+        "matchHost": "api.github.com",
+        "token": "***********"
+      },
+      {
+        "hostType": "terraform-provider",
+        "matchHost": "api.github.com",
+        "token": "***********"
+      },
+      {
+        "hostType": "rubygems",
+        "matchHost": "github.com",
+        "token": "***********"
+      }
+    ],
+    "secrets": {}
+  }
+}
+
+DEBUG: CLI config
+{
+  "config": {}
+}
+
+DEBUG: Env config
+{
+  "config": {
+    "extends": [
+      "mergeConfidence:all-badges"
+    ],
+    "prFooter": "This PR was generated by [Mend Renovate](https://mend.io/renovate/). View the [repository job log](https://developer.mend.io/{{platform}}/{{repository}}).",
+    "redisUrl": "redis://mend-developer-platform-renovate-prod.aqffol.ng.0001.use1.cache.amazonaws.com:6379",
+    "binarySource": "install",
+    "platformCommit": "enabled",
+    "repositoryCache": "enabled",
+    "cacheTtlOverride": {
+      "datasource-docker-hub-tags": 90
+    },
+    "encryptedWarning": "Encrypted secrets were detected in the repository config. This feature has been deprecated. Please migrate them to this portal. See the guide at http://docs.renovatebot.com/mend-hosted/migrating-secrets/",
+    "onboardingConfig": {
+      "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+      "extends": [
+        "config:recommended"
+      ]
+    },
+    "gitIgnoredAuthors": [
+      "29139614+renovate[bot]@users.noreply.github.com"
+    ],
+    "customizeDashboard": {
+      "repoProblemsHeader": "These problems occurred while renovating this repository. [View logs](https://developer.mend.io//{{platform}}/{{repository}})."
+    },
+    "repositoryCacheType": "s3://mend-developer-platform-prod/renovate/",
+    "dependencyDashboardFooter": "\n- [ ] <!-- manual job -->Check this box to trigger a request for Renovate to run again on this repository\n",
+    "allowedPostUpgradeCommands": [
+      "^git add --all$",
+      "^git reset$",
+      "^pwd$"
+    ],
+    "allowPostUpgradeCommandTemplating": true,
+    "hostRules": [],
+    "onboardingNoDeps": "enabled",
+    "onboarding": true,
+    "forkProcessing": "enabled",
+    "requireConfig": "required",
+    "platform": "github",
+    "username": "renovate[bot]",
+    "repositories": [
+      "kennethso168/linuxserver-io-librespeed-repr-20241224"
+    ],
+    "gitAuthor": "renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>",
+    "deleteConfigFile": true
+  }
+}
+
+DEBUG: Combined config
+{
+  "config": {
+    "token": "***********",
+    "privateKey": "***********",
+    "privateKeyOld": "***********",
+    "hostRules": [
+      {
+        "hostType": "docker",
+        "matchHost": "docker.io",
+        "username": "mdpprod2renovate",
+        "password": "***********"
+      },
+      {
+        "hostType": "docker",
+        "matchHost": "hub.docker.com",
+        "username": "mdpprodrenovatedc2",
+        "password": "***********"
+      },
+      {
+        "hostType": "github",
+        "matchHost": "api.github.com",
+        "token": "***********"
+      },
+      {
+        "hostType": "github-tags",
+        "matchHost": "api.github.com",
+        "token": "***********"
+      },
+      {
+        "hostType": "github-releases",
+        "matchHost": "api.github.com",
+        "token": "***********"
+      },
+      {
+        "hostType": "pod",
+        "matchHost": "api.github.com",
+        "token": "***********"
+      },
+      {
+        "hostType": "terraform-provider",
+        "matchHost": "api.github.com",
+        "token": "***********"
+      },
+      {
+        "hostType": "rubygems",
+        "matchHost": "github.com",
+        "token": "***********"
+      }
+    ],
+    "secrets": {},
+    "extends": [
+      "mergeConfidence:all-badges"
+    ],
+    "prFooter": "This PR was generated by [Mend Renovate](https://mend.io/renovate/). View the [repository job log](https://developer.mend.io/{{platform}}/{{repository}}).",
+    "redisUrl": "redis://mend-developer-platform-renovate-prod.aqffol.ng.0001.use1.cache.amazonaws.com:6379",
+    "binarySource": "install",
+    "platformCommit": "enabled",
+    "repositoryCache": "enabled",
+    "cacheTtlOverride": {
+      "datasource-docker-hub-tags": 90
+    },
+    "encryptedWarning": "Encrypted secrets were detected in the repository config. This feature has been deprecated. Please migrate them to this portal. See the guide at http://docs.renovatebot.com/mend-hosted/migrating-secrets/",
+    "onboardingConfig": {
+      "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+      "extends": [
+        "config:recommended"
+      ]
+    },
+    "gitIgnoredAuthors": [
+      "29139614+renovate[bot]@users.noreply.github.com"
+    ],
+    "customizeDashboard": {
+      "repoProblemsHeader": "These problems occurred while renovating this repository. [View logs](https://developer.mend.io//{{platform}}/{{repository}})."
+    },
+    "repositoryCacheType": "s3://mend-developer-platform-prod/renovate/",
+    "dependencyDashboardFooter": "\n- [ ] <!-- manual job -->Check this box to trigger a request for Renovate to run again on this repository\n",
+    "allowedPostUpgradeCommands": [
+      "^git add --all$",
+      "^git reset$",
+      "^pwd$"
+    ],
+    "allowPostUpgradeCommandTemplating": true,
+    "onboardingNoDeps": "enabled",
+    "onboarding": true,
+    "forkProcessing": "enabled",
+    "requireConfig": "required",
+    "platform": "github",
+    "username": "renovate[bot]",
+    "repositories": [
+      "kennethso168/linuxserver-io-librespeed-repr-20241224"
+    ],
+    "gitAuthor": "renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>",
+    "deleteConfigFile": true
+  }
+}
+
+DEBUG: Enabling forkProcessing while in non-autodiscover mode
+DEBUG: Enabling onboardingNoDeps while in non-autodiscover mode
+DEBUG: Found valid git version: 2.47.1
+DEBUG: Setting global hostRules
+DEBUG: Adding password authentication for docker.io (hostType=docker) to hostRules
+DEBUG: Adding password authentication for hub.docker.com (hostType=docker) to hostRules
+DEBUG: Adding token authentication for api.github.com (hostType=github) to hostRules
+DEBUG: Adding token authentication for api.github.com (hostType=github-tags) to hostRules
+DEBUG: Adding token authentication for api.github.com (hostType=github-releases) to hostRules
+DEBUG: Adding token authentication for api.github.com (hostType=pod) to hostRules
+DEBUG: Adding token authentication for api.github.com (hostType=terraform-provider) to hostRules
+DEBUG: Adding token authentication for github.com (hostType=rubygems) to hostRules
+DEBUG: Using default github endpoint: https://api.github.com/
+DEBUG: Platform config
+{
+  "platformConfig": {
+    "hostType": "github",
+    "endpoint": "https://api.github.com/",
+    "isGHApp": true,
+    "isGhe": false
+  }
+  "renovateUsername": "renovate[bot]"
+}
+
+DEBUG: Using configured gitAuthor (renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>)
+DEBUG: Adding token authentication for api.github.com (hostType=github) to hostRules
+DEBUG: Using baseDir: /tmp/renovate
+DEBUG: Using cacheDir: /tmp/renovate/cache
+DEBUG: Using containerbaseDir: /tmp/renovate/cache/containerbase
+DEBUG: Redis cache init
+DEBUG: Redis cache connected
+DEBUG: Commits limit = null
+DEBUG: Setting global hostRules
+DEBUG: Adding password authentication for docker.io (hostType=docker) to hostRules
+DEBUG: Adding password authentication for hub.docker.com (hostType=docker) to hostRules
+DEBUG: Adding token authentication for api.github.com (hostType=github) to hostRules
+DEBUG: Adding token authentication for api.github.com (hostType=github-tags) to hostRules
+DEBUG: Adding token authentication for api.github.com (hostType=github-releases) to hostRules
+DEBUG: Adding token authentication for api.github.com (hostType=pod) to hostRules
+DEBUG: Adding token authentication for api.github.com (hostType=terraform-provider) to hostRules
+DEBUG: Adding token authentication for github.com (hostType=rubygems) to hostRules
+DEBUG: Adding token authentication for api.github.com (hostType=github) to hostRules
+DEBUG: validatePresets()
+DEBUG: Reinitializing hostRules for repo
+DEBUG: Clearing hostRules
+DEBUG: Adding password authentication for docker.io (hostType=docker) to hostRules
+DEBUG: Adding password authentication for hub.docker.com (hostType=docker) to hostRules
+DEBUG: Adding token authentication for api.github.com (hostType=github) to hostRules
+DEBUG: Adding token authentication for api.github.com (hostType=github-tags) to hostRules
+DEBUG: Adding token authentication for api.github.com (hostType=github-releases) to hostRules
+DEBUG: Adding token authentication for api.github.com (hostType=pod) to hostRules
+DEBUG: Adding token authentication for api.github.com (hostType=terraform-provider) to hostRules
+DEBUG: Adding token authentication for github.com (hostType=rubygems) to hostRules
+DEBUG: Adding token authentication for api.github.com (hostType=github) to hostRules
+INFO: Repository started
+{
+  "renovateVersion": "39.80.0"
+}
+
+DEBUG: Using localDir: /tmp/renovate/repos/github/kennethso168/linuxserver-io-librespeed-repr-20241224
+DEBUG: PackageFiles.clear() - Package files deleted
+DEBUG: initRepo("kennethso168/linuxserver-io-librespeed-repr-20241224")
+DEBUG: hostRules: authentication already set for api.github.com
+DEBUG: Using queue: host=api.github.com, concurrency=16
+DEBUG: kennethso168/linuxserver-io-librespeed-repr-20241224 default branch = main
+DEBUG: Using app token for git init
+DEBUG: RepoCacheS3.read() - success
+DEBUG: Repository cache is restored from revision 13
+DEBUG: Resetting npmrc
+DEBUG: Resetting npmrc
+DEBUG: checkOnboarding()
+DEBUG: isOnboarded()
+DEBUG: findPr(renovate/configure, Configure Renovate, !open)
+DEBUG: http cache: saving https://api.github.com/repos/kennethso168/linuxserver-io-librespeed-repr-20241224/pulls?per_page=100&state=all&sort=updated&direction=desc&page=1 (etag=W/"c81d5e8e7cfb7d81e7eaf5a9f6a4c4102147eb256ef4acfe73f2df406242b92d", lastModified=undefined)
+DEBUG: getPrList success
+{
+  "pullsTotal": 0
+  "requestsTotal": 1
+  "apiQuotaAffected": true
+}
+
+DEBUG: findPr(renovate/configure, chore: Configure Renovate, !open)
+DEBUG: Checking cached config file name
+DEBUG: http cache: saving https://api.github.com/repos/kennethso168/linuxserver-io-librespeed-repr-20241224/contents/renovate.json (etag=W/"06a689dceb2a3b686caa9d99c1f3504f91606d0f", lastModified=Tue, 24 Dec 2024 13:51:41 GMT)
+DEBUG: Existing config file confirmed
+DEBUG: Repository config
+{
+  "fileName": "renovate.json"
+  "config": {
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "extends": [
+      "config:recommended",
+      ":separatePatchReleases"
+    ],
+    "packageRules": [
+      {
+        "description": "Handling linuxserver images tagged with semver and build number. Ref https://docs.renovatebot.com/modules/versioning/regex/",
+        "matchDatasources": [
+          "docker"
+        ],
+        "matchPackageNames": [
+          "ghcr.io/linuxserver/librespeed"
+        ],
+        "versioning": "regex:^(?<major>\\d+)\\.(?<minor>\\d+)\\.(?<patch>\\d+)-ls(?<build>.+)$"
+      }
+    ]
+  }
+}
+
+DEBUG: Repo is onboarded
+DEBUG: http cache: saving https://api.github.com/repos/kennethso168/linuxserver-io-librespeed-repr-20241224/contents/renovate.json (etag=W/"06a689dceb2a3b686caa9d99c1f3504f91606d0f", lastModified=Tue, 24 Dec 2024 13:51:41 GMT)
+DEBUG: migrateAndValidate()
+DEBUG: No config migration necessary
+DEBUG: Post-massage config
+{
+  "config": {
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "extends": [
+      "mergeConfidence:all-badges",
+      "config:recommended",
+      ":separatePatchReleases"
+    ],
+    "packageRules": [
+      {
+        "description": [
+          "Handling linuxserver images tagged with semver and build number. Ref https://docs.renovatebot.com/modules/versioning/regex/"
+        ],
+        "matchDatasources": [
+          "docker"
+        ],
+        "matchPackageNames": [
+          "ghcr.io/linuxserver/librespeed"
+        ],
+        "versioning": "regex:^(?<major>\\d+)\\.(?<minor>\\d+)\\.(?<patch>\\d+)-ls(?<build>.+)$"
+      }
+    ]
+  }
+}
+
+DEBUG: Found repo ignorePaths
+{
+  "ignorePaths": [
+    "**/node_modules/**",
+    "**/bower_components/**",
+    "**/vendor/**",
+    "**/examples/**",
+    "**/__tests__/**",
+    "**/test/**",
+    "**/tests/**",
+    "**/__fixtures__/**"
+  ]
+}
+
+DEBUG: No vulnerability alerts enabled for repo
+DEBUG: No vulnerability alerts found
+DEBUG: findIssue(Dependency Dashboard)
+DEBUG: Issues cache: synced
+DEBUG: Found issue 1
+DEBUG: http cache: saving https://api.github.com/repos/kennethso168/linuxserver-io-librespeed-repr-20241224/issues/1 (etag=W/"9934986c847a3cad2aeef63347a416bc8faa27c87b4ff9301c00339e8a246365", lastModified=Tue, 24 Dec 2024 13:49:17 GMT)
+DEBUG: No baseBranches
+DEBUG: extract()
+DEBUG: Cached extract result cannot be used due to base branch SHA change (old=cb0a77756580e84543d7fe8e9962a4572eaa065c, new=8dcdb6820b323f12a72a8560296b9c434f183c22)
+DEBUG: Setting current branch to main
+DEBUG: Initializing git repository into /tmp/renovate/repos/github/kennethso168/linuxserver-io-librespeed-repr-20241224
+DEBUG: Performing blobless clone
+DEBUG: git clone completed
+{
+  "durationMs": 278
+}
+
+DEBUG: latest repository commit
+{
+  "latestCommit": {
+    "hash": "8dcdb6820b323f12a72a8560296b9c434f183c22",
+    "date": "2024-12-24T21:51:41+08:00",
+    "message": "Update renovate.json",
+    "refs": "HEAD -> main, origin/main, origin/HEAD",
+    "body": "",
+    "author_name": "kennethso168",
+    "author_email": "kennethso168@gmail.com"
+  }
+}
+
+DEBUG: latest commit
+{
+  "branchName": "main"
+  "latestCommitDate": "2024-12-24T21:51:41+08:00"
+}
+
+DEBUG: Using file match: (^|/)tasks/[^/]+\.ya?ml$ for manager ansible
+DEBUG: Using file match: (^|/)(galaxy|requirements)(\.ansible)?\.ya?ml$ for manager ansible-galaxy
+DEBUG: Using file match: (^|/)\.tool-versions$ for manager asdf
+DEBUG: Using file match: (^|/).azuredevops/.+\.ya?ml$ for manager azure-pipelines
+DEBUG: Using file match: azure.*pipelines?.*\.ya?ml$ for manager azure-pipelines
+DEBUG: Using file match: (^|/)batect(-bundle)?\.ya?ml$ for manager batect
+DEBUG: Using file match: (^|/)batect$ for manager batect-wrapper
+DEBUG: Using file match: (^|/)WORKSPACE(|\.bazel|\.bzlmod)$ for manager bazel
+DEBUG: Using file match: \.WORKSPACE\.bazel$ for manager bazel
+DEBUG: Using file match: \.bzl$ for manager bazel
+DEBUG: Using file match: (^|/|\.)MODULE\.bazel$ for manager bazel-module
+DEBUG: Using file match: (^|/)\.bazelversion$ for manager bazelisk
+DEBUG: Using file match: \.bicep$ for manager bicep
+DEBUG: Using file match: (^|/)\.?bitbucket-pipelines\.ya?ml$ for manager bitbucket-pipelines
+DEBUG: Using file match: (^|/)bitrise\.ya?ml$ for manager bitrise
+DEBUG: Using file match: buildkite\.ya?ml for manager buildkite
+DEBUG: Using file match: \.buildkite/.+\.ya?ml$ for manager buildkite
+DEBUG: Using file match: (^|/)project\.toml$ for manager buildpacks
+DEBUG: Using file match: (^|/)bun\.lockb?$ for manager bun
+DEBUG: Using file match: (^|/)\.bun-version$ for manager bun-version
+DEBUG: Using file match: (^|/)Gemfile$ for manager bundler
+DEBUG: Using file match: \.cake$ for manager cake
+DEBUG: Using file match: (^|/)Cargo\.toml$ for manager cargo
+DEBUG: Using file match: (^|/)\.circleci/.+\.ya?ml$ for manager circleci
+DEBUG: Using file match: (^|/)cloudbuild\.ya?ml for manager cloudbuild
+DEBUG: Using file match: (^|/)Podfile$ for manager cocoapods
+DEBUG: Using file match: (^|/)([\w-]*)composer\.json$ for manager composer
+DEBUG: Using file match: (^|/)conanfile\.(txt|py)$ for manager conan
+DEBUG: Using file match: (^|/)\.copier-answers(\..+)?\.ya?ml for manager copier
+DEBUG: Using file match: (^|/)cpanfile$ for manager cpanfile
+DEBUG: Using file match: (^|/)(?:deps|bb)\.edn$ for manager deps-edn
+DEBUG: Using file match: ^.devcontainer/devcontainer.json$ for manager devcontainer
+DEBUG: Using file match: ^.devcontainer.json$ for manager devcontainer
+DEBUG: Using file match: (^|/)(?:docker-)?compose[^/]*\.ya?ml$ for manager docker-compose
+DEBUG: Using file match: (^|/|\.)([Dd]ocker|[Cc]ontainer)file$ for manager dockerfile
+DEBUG: Using file match: (^|/)([Dd]ocker|[Cc]ontainer)file[^/]*$ for manager dockerfile
+DEBUG: Using file match: (^|/)\.drone\.yml$ for manager droneci
+DEBUG: Using file match: (^|/)fleet\.ya?ml for manager fleet
+DEBUG: Using file match: (?:^|/)gotk-components\.ya?ml$ for manager flux
+DEBUG: Using file match: (^|/)\.fvm/fvm_config\.json$ for manager fvm
+DEBUG: Using file match: (^|/)\.fvmrc$ for manager fvm
+DEBUG: Using file match: (^|/)\.gitmodules$ for manager git-submodules
+DEBUG: Using file match: (^|/)(workflow-templates|\.(?:github|gitea|forgejo)/(?:workflows|actions))/.+\.ya?ml$ for manager github-actions
+DEBUG: Using file match: (^|/)action\.ya?ml$ for manager github-actions
+DEBUG: Using file match: \.gitlab-ci\.ya?ml$ for manager gitlabci
+DEBUG: Using file match: \.gitlab-ci\.ya?ml$ for manager gitlabci-include
+DEBUG: Using file match: (^|/)gleam.toml$ for manager gleam
+DEBUG: Using file match: (^|/)go\.mod$ for manager gomod
+DEBUG: Using file match: \.gradle(\.kts)?$ for manager gradle
+DEBUG: Using file match: (^|/)gradle\.properties$ for manager gradle
+DEBUG: Using file match: (^|/)gradle/.+\.toml$ for manager gradle
+DEBUG: Using file match: (^|/)buildSrc/.+\.kt$ for manager gradle
+DEBUG: Using file match: \.versions\.toml$ for manager gradle
+DEBUG: Using file match: (^|/)versions.props$ for manager gradle
+DEBUG: Using file match: (^|/)versions.lock$ for manager gradle
+DEBUG: Using file match: (^|/)gradle/wrapper/gradle-wrapper\.properties$ for manager gradle-wrapper
+DEBUG: Using file match: (^|/)requirements\.ya?ml$ for manager helm-requirements
+DEBUG: Using file match: (^|/)values\.ya?ml$ for manager helm-values
+DEBUG: Using file match: (^|/)helmfile\.ya?ml(?:\.gotmpl)?$ for manager helmfile
+DEBUG: Using file match: (^|/)Chart\.ya?ml$ for manager helmv3
+DEBUG: Using file match: (^|/)bin/hermit$ for manager hermit
+DEBUG: Using file match: ^Formula/[^/]+[.]rb$ for manager homebrew
+DEBUG: Using file match: \.html?$ for manager html
+DEBUG: Using file match: (^|/)plugins\.(txt|ya?ml)$ for manager jenkins
+DEBUG: Using file match: (^|/)jsonnetfile\.json$ for manager jsonnet-bundler
+DEBUG: Using file match: ^.+\.main\.kts$ for manager kotlin-script
+DEBUG: Using file match: (^|/)kustomization\.ya?ml$ for manager kustomize
+DEBUG: Using file match: (^|/)project\.clj$ for manager leiningen
+DEBUG: Using file match: (^|/|\.)pom\.xml$ for manager maven
+DEBUG: Using file match: ^(((\.mvn)|(\.m2))/)?settings\.xml$ for manager maven
+DEBUG: Using file match: (^|/)\.mvn/extensions\.xml$ for manager maven
+DEBUG: Using file match: (^|\/).mvn/wrapper/maven-wrapper.properties$ for manager maven-wrapper
+DEBUG: Using file match: (^|/)package\.js$ for manager meteor
+DEBUG: Using file match: (^|/)Mintfile$ for manager mint
+DEBUG: Using file match: (^|/)\.?mise\.toml$ for manager mise
+DEBUG: Using file match: (^|/)\.?mise/config\.toml$ for manager mise
+DEBUG: Using file match: (^|/)mix\.exs$ for manager mix
+DEBUG: Using file match: (^|/)flake\.nix$ for manager nix
+DEBUG: Using file match: (^|/)\.node-version$ for manager nodenv
+DEBUG: Using file match: (^|/)package\.json$ for manager npm
+DEBUG: Using file match: \.(?:cs|fs|vb)proj$ for manager nuget
+DEBUG: Using file match: \.(?:props|targets)$ for manager nuget
+DEBUG: Using file match: (^|/)dotnet-tools\.json$ for manager nuget
+DEBUG: Using file match: (^|/)global\.json$ for manager nuget
+DEBUG: Using file match: (^|/)\.nvmrc$ for manager nvm
+DEBUG: Using file match: (^|/)src/main/features/.+\.json$ for manager osgi
+DEBUG: Using file match: (^|/)pyproject\.toml$ for manager pep621
+DEBUG: Using file match: (^|/)[\w-]*requirements([-.]\w+)?\.(txt|pip)$ for manager pip_requirements
+DEBUG: Using file match: (^|/)setup\.py$ for manager pip_setup
+DEBUG: Using file match: (^|/)Pipfile$ for manager pipenv
+DEBUG: Using file match: (^|/)pyproject\.toml$ for manager poetry
+DEBUG: Using file match: (^|/)\.pre-commit-config\.ya?ml$ for manager pre-commit
+DEBUG: Using file match: (^|/)pubspec\.ya?ml$ for manager pub
+DEBUG: Using file match: (^|/)Puppetfile$ for manager puppet
+DEBUG: Using file match: (^|/)\.python-version$ for manager pyenv
+DEBUG: Using file match: (^|/)\.ruby-version$ for manager ruby-version
+DEBUG: Using file match: (^|/)runtime.txt$ for manager runtime-version
+DEBUG: Using file match: \.sbt$ for manager sbt
+DEBUG: Using file match: project/[^/]*\.scala$ for manager sbt
+DEBUG: Using file match: project/build\.properties$ for manager sbt
+DEBUG: Using file match: (^|/)repositories$ for manager sbt
+DEBUG: Using file match: (^|/)\.scalafmt.conf$ for manager scalafmt
+DEBUG: Using file match: (^|/)setup\.cfg$ for manager setup-cfg
+DEBUG: Using file match: (^|/)Package\.swift for manager swift
+DEBUG: Using file match: \.tf$ for manager terraform
+DEBUG: Using file match: (^|/)\.terraform-version$ for manager terraform-version
+DEBUG: Using file match: (^|/)terragrunt\.hcl$ for manager terragrunt
+DEBUG: Using file match: (^|/)\.terragrunt-version$ for manager terragrunt-version
+DEBUG: Using file match: \.tflint\.hcl$ for manager tflint-plugin
+DEBUG: Using file match: ^\.travis\.ya?ml$ for manager travis
+DEBUG: Using file match: (^|/)\.vela\.ya?ml$ for manager velaci
+DEBUG: Using file match: (^|/)vendir\.yml$ for manager vendir
+DEBUG: Using file match: ^\.woodpecker(?:/[^/]+)?\.ya?ml$ for manager woodpecker
+DEBUG: Matched 1 file(s) for manager docker-compose: compose.yml
+DEBUG: docker-compose.extractPackageFile(compose.yml)
+DEBUG: manager extract durations (ms)
+{
+  "managers": {
+    "docker-compose": 14
+  }
+}
+
+DEBUG: Found docker-compose package files
+DEBUG: Found 1 package file(s)
+INFO: Dependency extraction complete
+{
+  "baseBranch": "main"
+  "stats": {
+    "managers": {
+      "docker-compose": {
+        "fileCount": 1,
+        "depCount": 1
+      }
+    },
+    "total": {
+      "fileCount": 1,
+      "depCount": 1
+    }
+  }
+}
+
+DEBUG: PackageFiles.add() - Package file saved for base branch
+{
+  "baseBranch": "main"
+}
+
+DEBUG: Package releases lookups complete
+{
+  "baseBranch": "main"
+}
+
+DEBUG: branchifyUpgrades
+DEBUG: detectSemanticCommits()
+DEBUG: getCommitMessages
+DEBUG: semanticCommits: detected "unknown"
+DEBUG: semanticCommits: disabled
+DEBUG: 1 flattened updates found: ghcr.io/linuxserver/librespeed
+DEBUG: Returning 1 branch(es)
+DEBUG: config.repoIsOnboarded=true
+DEBUG: packageFiles with updates
+{
+  "baseBranch": "main"
+  "config": {
+    "docker-compose": [
+      {
+        "deps": [
+          {
+            "depName": "ghcr.io/linuxserver/librespeed",
+            "currentValue": "5.4.1-ls215",
+            "replaceString": "ghcr.io/linuxserver/librespeed:5.4.1-ls215",
+            "autoReplaceStringTemplate": "{{depName}}{{#if newValue}}:{{newValue}}{{/if}}{{#if newDigest}}@{{newDigest}}{{/if}}",
+            "datasource": "docker",
+            "updates": [
+              {
+                "bucket": "patch",
+                "newVersion": "5.4.1-ls218",
+                "newValue": "5.4.1-ls218",
+                "newMajor": 5,
+                "newMinor": 4,
+                "newPatch": 1,
+                "updateType": "patch",
+                "branchName": "renovate/ghcr.io-linuxserver-librespeed-5.4.x"
+              }
+            ],
+            "packageName": "ghcr.io/linuxserver/librespeed",
+            "versioning": "regex:^(?<major>\\d+)\\.(?<minor>\\d+)\\.(?<patch>\\d+)-ls(?<build>.+)$",
+            "warnings": [],
+            "sourceUrl": "https://github.com/linuxserver/docker-librespeed",
+            "registryUrl": "https://ghcr.io",
+            "homepage": "https://github.com/linuxserver/docker-librespeed/packages",
+            "lookupName": "linuxserver/librespeed",
+            "currentVersion": "5.4.1-ls215",
+            "isSingleVersion": true,
+            "fixedVersion": "5.4.1-ls215"
+          }
+        ],
+        "packageFile": "compose.yml"
+      }
+    ]
+  }
+}
+
+DEBUG: detectSemanticCommits()
+DEBUG: semanticCommits: returning "disabled" from cache
+DEBUG: processRepo()
+DEBUG: Processing 1 branch: renovate/ghcr.io-linuxserver-librespeed-5.4.x
+DEBUG: Calculating hourly PRs remaining
+DEBUG: currentHourStart=2024-12-24T13:00:00.000+00:00
+DEBUG: PR hourly limit remaining: 2
+DEBUG: Calculating prConcurrentLimit (10)
+DEBUG: getBranchPr(renovate/ghcr.io-linuxserver-librespeed-5.4.x)
+DEBUG: findPr(renovate/ghcr.io-linuxserver-librespeed-5.4.x, undefined, open)
+DEBUG: 0 PRs are currently open
+DEBUG: PR concurrent limit remaining: 10
+DEBUG: Calculated maximum PRs remaining this run: 2
+DEBUG: PullRequests limit = 2
+DEBUG: Calculating hourly PRs remaining
+DEBUG: currentHourStart=2024-12-24T13:00:00.000+00:00
+DEBUG: PR hourly limit remaining: 2
+DEBUG: Calculating branchConcurrentLimit (10)
+DEBUG: 0 already existing branches found:
+DEBUG: Branch concurrent limit remaining: 10
+DEBUG: Calculated maximum branches remaining this run: 2
+DEBUG: Branches limit = 2
+DEBUG: syncBranchState() (branch="renovate/ghcr.io-linuxserver-librespeed-5.4.x")
+DEBUG: syncBranchState(): Branch cache not found, creating minimal branchState (branch="renovate/ghcr.io-linuxserver-librespeed-5.4.x")
+DEBUG: getBranchPr(renovate/ghcr.io-linuxserver-librespeed-5.4.x) (branch="renovate/ghcr.io-linuxserver-librespeed-5.4.x")
+DEBUG: findPr(renovate/ghcr.io-linuxserver-librespeed-5.4.x, undefined, open) (branch="renovate/ghcr.io-linuxserver-librespeed-5.4.x")
+DEBUG: branchExists=false (branch="renovate/ghcr.io-linuxserver-librespeed-5.4.x")
+DEBUG: dependencyDashboardCheck=undefined (branch="renovate/ghcr.io-linuxserver-librespeed-5.4.x")
+DEBUG: Check for closed PR because recreating closed PRs is disabled. (branch="renovate/ghcr.io-linuxserver-librespeed-5.4.x")
+DEBUG: findPr(renovate/ghcr.io-linuxserver-librespeed-5.4.x, Update ghcr.io/linuxserver/librespeed Docker tag to v5.4.1-ls218, !open) (branch="renovate/ghcr.io-linuxserver-librespeed-5.4.x")
+DEBUG: prAlreadyExisted=false (branch="renovate/ghcr.io-linuxserver-librespeed-5.4.x")
+DEBUG: Checking schedule(schedule=at any time, tz=null, now=2024-12-24T13:52:00.383Z) (branch="renovate/ghcr.io-linuxserver-librespeed-5.4.x")
+DEBUG: No schedule defined (branch="renovate/ghcr.io-linuxserver-librespeed-5.4.x")
+DEBUG: GET https://api.github.com/repos/kennethso168/linuxserver-io-librespeed-repr-20241224/branches/main/protection = (code=ERR_NON_2XX_3XX_RESPONSE, statusCode=404 retryCount=0, duration=73) (branch="renovate/ghcr.io-linuxserver-librespeed-5.4.x")
+DEBUG: No branch protection found for main (branch="renovate/ghcr.io-linuxserver-librespeed-5.4.x")
+DEBUG: Converting rebaseWhen=auto to rebaseWhen=conflicted because no rule for behind-base-branch applies (branch="renovate/ghcr.io-linuxserver-librespeed-5.4.x")
+DEBUG: Branch needs creating (branch="renovate/ghcr.io-linuxserver-librespeed-5.4.x")
+DEBUG: Using reuseExistingBranch: false (branch="renovate/ghcr.io-linuxserver-librespeed-5.4.x")
+DEBUG: Setting current branch to main (branch="renovate/ghcr.io-linuxserver-librespeed-5.4.x")
+DEBUG: latest commit (branch="renovate/ghcr.io-linuxserver-librespeed-5.4.x")
+{
+  "branchName": "main"
+  "latestCommitDate": "2024-12-24T21:51:41+08:00"
+}
+
+DEBUG: manager.getUpdatedPackageFiles() reuseExistingBranch=false (branch="renovate/ghcr.io-linuxserver-librespeed-5.4.x")
+DEBUG: Starting search at index 50 (branch="renovate/ghcr.io-linuxserver-librespeed-5.4.x")
+{
+  "packageFile": "compose.yml"
+  "depName": "ghcr.io/linuxserver/librespeed"
+}
+
+DEBUG: Found match at index 50 (branch="renovate/ghcr.io-linuxserver-librespeed-5.4.x")
+{
+  "packageFile": "compose.yml"
+  "depName": "ghcr.io/linuxserver/librespeed"
+}
+
+DEBUG: docker-compose.extractPackageFile(compose.yml) (branch="renovate/ghcr.io-linuxserver-librespeed-5.4.x")
+DEBUG: Contents updated (branch="renovate/ghcr.io-linuxserver-librespeed-5.4.x")
+{
+  "packageFile": "compose.yml"
+  "depName": "ghcr.io/linuxserver/librespeed"
+}
+
+DEBUG: updateArtifacts for updatedPackageFiles (branch="renovate/ghcr.io-linuxserver-librespeed-5.4.x")
+DEBUG: Updated 1 package files (branch="renovate/ghcr.io-linuxserver-librespeed-5.4.x")
+DEBUG: No updated lock files in branch (branch="renovate/ghcr.io-linuxserver-librespeed-5.4.x")
+DEBUG: 1 file(s) to commit (branch="renovate/ghcr.io-linuxserver-librespeed-5.4.x")
+DEBUG: Preparing files for committing to branch renovate/ghcr.io-linuxserver-librespeed-5.4.x (branch="renovate/ghcr.io-linuxserver-librespeed-5.4.x")
+DEBUG: Setting git author name: renovate[bot] (branch="renovate/ghcr.io-linuxserver-librespeed-5.4.x")
+DEBUG: Setting git author email: 29139614+renovate[bot]@users.noreply.github.com (branch="renovate/ghcr.io-linuxserver-librespeed-5.4.x")
+DEBUG: git commit (branch="renovate/ghcr.io-linuxserver-librespeed-5.4.x")
+{
+  "deletedFiles": []
+  "ignoredFiles": []
+  "result": {
+    "author": null,
+    "branch": "renovate/ghcr.io-linuxserver-librespeed-5.4.x",
+    "commit": "fe3e9b3c91d955e656c86b28f1a50d42e3597052",
+    "root": false,
+    "summary": {
+      "changes": 1,
+      "insertions": 1,
+      "deletions": 1
+    }
+  }
+}
+
+DEBUG: resetToCommit(8dcdb6820b323f12a72a8560296b9c434f183c22) (branch="renovate/ghcr.io-linuxserver-librespeed-5.4.x")
+DEBUG: Fetching branch renovate/ghcr.io-linuxserver-librespeed-5.4.x (branch="renovate/ghcr.io-linuxserver-librespeed-5.4.x")
+DEBUG: Setting current branch to main (branch="renovate/ghcr.io-linuxserver-librespeed-5.4.x")
+DEBUG: latest commit (branch="renovate/ghcr.io-linuxserver-librespeed-5.4.x")
+{
+  "branchName": "main"
+  "latestCommitDate": "2024-12-24T21:51:41+08:00"
+}
+
+INFO: Branch created (branch="renovate/ghcr.io-linuxserver-librespeed-5.4.x")
+{
+  "commitSha": "99b5b2a770d65e0161c16233c9ef8894f93bcf2d"
+}
+
+DEBUG: Ensuring PR (branch="renovate/ghcr.io-linuxserver-librespeed-5.4.x")
+DEBUG: There are 0 errors and 0 warnings (branch="renovate/ghcr.io-linuxserver-librespeed-5.4.x")
+DEBUG: getBranchPr(renovate/ghcr.io-linuxserver-librespeed-5.4.x) (branch="renovate/ghcr.io-linuxserver-librespeed-5.4.x")
+DEBUG: findPr(renovate/ghcr.io-linuxserver-librespeed-5.4.x, undefined, open) (branch="renovate/ghcr.io-linuxserver-librespeed-5.4.x")
+DEBUG: findPr(renovate/ghcr.io-linuxserver-librespeed-5.4.x, undefined, closed) (branch="renovate/ghcr.io-linuxserver-librespeed-5.4.x")
+DEBUG: Fetching changelog: https://github.com/linuxserver/docker-librespeed (5.4.1-ls215 -> 5.4.1-ls218) (branch="renovate/ghcr.io-linuxserver-librespeed-5.4.x")
+DEBUG: Creating PR (branch="renovate/ghcr.io-linuxserver-librespeed-5.4.x")
+{
+  "prTitle": "Update ghcr.io/linuxserver/librespeed Docker tag to v5.4.1-ls218"
+}
+
+DEBUG: Creating PR (branch="renovate/ghcr.io-linuxserver-librespeed-5.4.x")
+{
+  "title": "Update ghcr.io/linuxserver/librespeed Docker tag to v5.4.1-ls218"
+  "head": "kennethso168:renovate/ghcr.io-linuxserver-librespeed-5.4.x"
+  "base": "main"
+  "draft": false
+}
+
+DEBUG: PR created (branch="renovate/ghcr.io-linuxserver-librespeed-5.4.x")
+{
+  "pr": 3
+  "draft": false
+}
+
+DEBUG: Adding labels '' to #3 (branch="renovate/ghcr.io-linuxserver-librespeed-5.4.x")
+INFO: PR created (branch="renovate/ghcr.io-linuxserver-librespeed-5.4.x")
+{
+  "pr": 3
+  "prTitle": "Update ghcr.io/linuxserver/librespeed Docker tag to v5.4.1-ls218"
+}
+
+DEBUG: addParticipants(pr=3) (branch="renovate/ghcr.io-linuxserver-librespeed-5.4.x")
+DEBUG: setPrCache() (branch="renovate/ghcr.io-linuxserver-librespeed-5.4.x")
+DEBUG: Created Pull Request #3 (branch="renovate/ghcr.io-linuxserver-librespeed-5.4.x")
+DEBUG: PR is not configured for automerge (branch="renovate/ghcr.io-linuxserver-librespeed-5.4.x")
+DEBUG: setBranchCommit() (branch="renovate/ghcr.io-linuxserver-librespeed-5.4.x")
+DEBUG: getBranchPr(renovate/ghcr.io-linuxserver-librespeed-5.4.x)
+DEBUG: findPr(renovate/ghcr.io-linuxserver-librespeed-5.4.x, undefined, open)
+DEBUG: Found PR #3
+DEBUG: http cache: saving https://api.github.com/repos/kennethso168/linuxserver-io-librespeed-repr-20241224/contents/renovate.json (etag=W/"06a689dceb2a3b686caa9d99c1f3504f91606d0f", lastModified=Tue, 24 Dec 2024 13:51:41 GMT)
+DEBUG: Config does not need migration
+DEBUG: ensureDependencyDashboard()
+DEBUG: Ensuring Dependency Dashboard
+DEBUG: Checking packageFiles for deprecated packages
+DEBUG: http cache: saving https://api.github.com/repos/kennethso168/linuxserver-io-librespeed-repr-20241224/issues/1 (etag=W/"9934986c847a3cad2aeef63347a416bc8faa27c87b4ff9301c00339e8a246365", lastModified=Tue, 24 Dec 2024 13:49:17 GMT)
+DEBUG: http cache: saving https://api.github.com/repos/kennethso168/linuxserver-io-librespeed-repr-20241224/issues/1 (etag=W/"9934986c847a3cad2aeef63347a416bc8faa27c87b4ff9301c00339e8a246365", lastModified=Tue, 24 Dec 2024 13:49:17 GMT)
+DEBUG: ensureIssue(Dependency Dashboard)
+DEBUG: http cache: saving https://api.github.com/repos/kennethso168/linuxserver-io-librespeed-repr-20241224/issues/1 (etag=W/"9934986c847a3cad2aeef63347a416bc8faa27c87b4ff9301c00339e8a246365", lastModified=Tue, 24 Dec 2024 13:49:17 GMT)
+DEBUG: Patching issue
+DEBUG: Issue updated
+DEBUG: validateReconfigureBranch()
+DEBUG: No reconfigure branch found
+DEBUG: Removing any stale branches
+DEBUG: config.repoIsOnboarded=true
+DEBUG: Branch lists
+{
+  "branchList": [
+    "renovate/ghcr.io-linuxserver-librespeed-5.4.x"
+  ]
+  "renovateBranches": [
+    "renovate/ghcr.io-linuxserver-librespeed-5.4.x"
+  ]
+}
+
+DEBUG: remainingBranches=
+DEBUG: No branches to clean up
+DEBUG: Cleaning up Renovate refs: refs/renovate/*
+DEBUG: PackageFiles.clear() - Package files deleted
+DEBUG: Branch summary
+{
+  "cacheModified": true
+  "baseBranches": [
+    {
+      "branchName": "main",
+      "sha": "8dcdb6820b323f12a72a8560296b9c434f183c22"
+    }
+  ]
+  "branches": [
+    {
+      "automerge": false,
+      "baseBranch": "main",
+      "baseBranchSha": "8dcdb6820b323f12a72a8560296b9c434f183c22",
+      "branchName": "renovate/ghcr.io-linuxserver-librespeed-5.4.x",
+      "branchSha": "99b5b2a770d65e0161c16233c9ef8894f93bcf2d",
+      "isModified": false,
+      "isPristine": true
+    }
+  ]
+  "defaultBranch": "main"
+  "inactiveBranches": []
+}
+
+DEBUG: branches info extended
+{
+  "branchesInformation": [
+    {
+      "branchName": "renovate/ghcr.io-linuxserver-librespeed-5.4.x",
+      "prNo": 3,
+      "prTitle": "Update ghcr.io/linuxserver/librespeed Docker tag to v5.4.1-ls218",
+      "result": "pr-created",
+      "upgrades": [
+        {
+          "datasource": "docker",
+          "depName": "ghcr.io/linuxserver/librespeed",
+          "displayPending": "",
+          "fixedVersion": "5.4.1-ls215",
+          "currentVersion": "5.4.1-ls215",
+          "currentValue": "5.4.1-ls215",
+          "newValue": "5.4.1-ls218",
+          "newVersion": "5.4.1-ls218",
+          "packageFile": "compose.yml",
+          "updateType": "patch",
+          "packageName": "ghcr.io/linuxserver/librespeed"
+        }
+      ]
+    }
+  ]
+}
+
+DEBUG: Renovate repository PR statistics
+{
+  "stats": {
+    "total": 1,
+    "open": 1,
+    "closed": 0,
+    "merged": 0
+  }
+}
+
+DEBUG: Repository result: done, status: onboarded, enabled: true, onboarded: true
+DEBUG: Repository timing splits (milliseconds)
+{
+  "splits": {
+    "init": 3355,
+    "extract": 1059,
+    "lookup": 348,
+    "onboarding": 2,
+    "update": 5316
+  }
+  "total": 11300
+}
+
+DEBUG: Package cache statistics
+{
+  "get": {
+    "count": 12,
+    "avgMs": 3,
+    "medianMs": 1,
+    "maxMs": 13,
+    "totalMs": 31
+  }
+  "set": {
+    "count": 8,
+    "avgMs": 3,
+    "medianMs": 3,
+    "maxMs": 7,
+    "totalMs": 24
+  }
+}
+
+DEBUG: HTTP statistics
+{
+  "hosts": {
+    "api.github.com": {
+      "count": 16,
+      "reqAvgMs": 264,
+      "reqMedianMs": 139,
+      "reqMaxMs": 908,
+      "queueAvgMs": 1,
+      "queueMedianMs": 0,
+      "queueMaxMs": 9
+    }
+  }
+  "requests": 16
+}
+
+DEBUG: HTTP cache statistics
+{
+  "https://api.github.com": {
+    "/repos/kennethso168/linuxserver-io-librespeed-repr-20241224/contents/renovate.json": {
+      "hit": 0,
+      "miss": 3
+    },
+    "/repos/kennethso168/linuxserver-io-librespeed-repr-20241224/issues/1": {
+      "hit": 0,
+      "miss": 4
+    },
+    "/repos/kennethso168/linuxserver-io-librespeed-repr-20241224/pulls": {
+      "hit": 0,
+      "miss": 1
+    }
+  }
+}
+
+DEBUG: Lookup statistics
+{
+  "docker": {
+    "count": 1,
+    "avgMs": 155,
+    "medianMs": 155,
+    "maxMs": 155,
+    "totalMs": 155
+  }
+}
+
+INFO: Repository finished
+{
+  "cloned": true
+  "durationMs": 11300
+}
