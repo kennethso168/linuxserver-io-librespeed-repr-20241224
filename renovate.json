@@ -9,7 +9,7 @@
       "description": "Handling linuxserver images tagged with semver and build number. Ref https://docs.renovatebot.com/modules/versioning/regex/",
       "matchDatasources": ["docker"],
       "matchPackageNames": [
-        "lscr.io/linuxserver/librespeed"
+        "ghcr.io/linuxserver/librespeed"
       ],
       "versioning": "regex:^(?<major>\\d+)\\.(?<minor>\\d+)\\.(?<patch>\\d+)-ls(?<revision>.+)$"
     }
